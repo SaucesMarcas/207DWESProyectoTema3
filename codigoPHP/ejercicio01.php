@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
--->
 <html>
     <head>
         <title>ejercicio01</title>
@@ -17,8 +13,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <?php
             /**
                 * @author Borja Nuñez Refoyo
-                * @version 1.0 
-                * @since 11/10/2023
+                * @version 2.0 
+                * @since 07/03/2023
             */
             $cadena = "Mi primer String";
             $entero = 17;
@@ -73,10 +69,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             var_dump('<p>La variable <span style="color:greenyellow">$entero</span> es de tipo <span style="color:greenyellow">' . gettype($entero) . '</span> y tiene el valor <span style="color:greenyellow">' . " $entero</span></p>");
             var_dump('<p>La variable <span style="color:greenyellow">$real</span> es de tipo <span style="color:greenyellow">' . gettype($real) . '</span> y tiene el valor <span style="color:greenyellow">' . " $real</span></p>");
             var_dump('<p>La variable <span style="color:greenyellow">$interruptor</span> es de tipo <span style="color:greenyellow">' . gettype($interruptor) . '</span> y tiene el valor <span style="color:greenyellow">' . " $interruptor</span></p>");
-        /* 
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-         * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
-         */
         ?>
         <footer class="text-center bg-secondary">
             <a title="Inicio" href="../indexProyectoTema3.html"><img src="../webroot/images/casa.png" width="40" height="40" alt="Inicio"/></a>
